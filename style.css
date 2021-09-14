@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+/* ----- Style table ----- */
+.demo {
+    border:1px solid #C0C0C0;
+    border-collapse:collapse;
+    padding:5px;
+}
+.demo th {
+    border:1px solid #C0C0C0;
+    padding:5px;
+    background:#F0F0F0;
+}
+.demo td {
+    border:1px solid #C0C0C0;
+    padding:5px;
+}
+
+/* ----- Police Settings ----- */
+
+p
+{
+    line-height:1.5;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #545151;
+}
+
+/* ----- Links Settings ----- */
+
+a:link{
+    text-decoration:none;
+    color:#53c2ff;
+}
+a:visited{
+    color:#00ff00;
+}
+a:hover{
+    color:#0185d2;
+}
+a:focus{
+    color:green;
+}
+a:active{
+    color:red;
+}
+
+/* ----- Body Settings ----- */
+
+body
+{
+    width: 90%;
+    margin: auto;
+}
+
+/* ----- quotes Settings ----- */
+
+q {
+    color: #bebebe;
+    font-family: 'Poppins', sans-serif;
+    width : 45%;
+    margin: auto;
+    font-size: 160%;
+    display: table;
+}
+
+
+
+
+/* ----- images Settings ----- */
+
+img
+{
+    width: 50%;
+    height: auto;
+}
+
+/* ----- copyright Settings ----- */
+
+body > footer:nth-child(3) > p:nth-child(3)
+{
+    width : 45%;
+    margin: auto;
+    font-size:70%;
+    padding-top: 20px;
+}
+
